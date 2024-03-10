@@ -17,5 +17,4 @@
 
 <script setup>
 const { error, pending, data } = await useFetch('https://pokeapi.co/api/v2/pokemon/')
-console.log(data)
 </script>
